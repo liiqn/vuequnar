@@ -1,0 +1,1159 @@
+{
+	"ret": true,
+	"data": {
+		"hotCity":[{
+			"id": "10001",
+			"city": "北京"
+			}, {
+			"id": "10002",
+			"city": "西安"
+			}, {
+			"id": "10003",
+			"city": "三亚"
+			}, {
+			"id": "10004",
+			"city": "丽江"
+			}, {
+			"id": "10005",
+			"city": "桂林"
+			}, {
+			"id": "10006",
+			"city": "成都"
+			}, {
+			"id": "10007",
+			"city": "上海"
+			}, {
+			"id": "10008",
+			"city": "西双版纳"
+			}, {
+			"id": "10009",
+			"city": "厦门"
+			}, {
+			"id": "10010",
+			"city": "长沙"
+			}, {
+			"id": "10011",
+			"city": "苏州"
+			}, {
+			"id": "10012",
+			"city": "大理"
+			}, {
+			"id": "10013",
+			"city": "广州"
+			}, {
+			"id": "10014",
+			"city": "杭州"
+			}, {
+			"id": "10015",
+			"city": "昆明"
+			}, {
+			"id": "10016",
+			"city": "重庆"
+			}		
+		],
+		"wholeCity": [{
+			"id": "001",
+			"letter": "A",
+			"cityList":[{
+					"id": "000001",
+					"pinyin":"abeizangzuqiangzuzizhizhou",
+					"city": "阿坝藏族羌族自治州"
+				}, {
+					"id": "000002",
+					"pinyin":"akesudiqu",
+					"city": "阿克苏地区"
+				}, {
+					"id": "000003",
+					"pinyin":"alaai",
+					"city": "阿拉尔"
+				}, {
+					"id": "000004",
+					"pinyin":"aba",
+					"city": "阿坝"
+				}, {
+					"id": "000005",
+					"pinyin":"anshan",
+					"city": "鞍山"
+				}, {
+					"id": "000006",
+					"pinyin":"anqing",
+					"city": "安庆"
+				}, {
+					"id": "000007",
+					"pinyin":"anshun",
+					"city": "安顺"
+				}, {
+					"id": "000008",
+					"pinyin":"aomen",
+					"city": "澳门"
+				}, {
+					"id": "000009",
+					"pinyin":"anyang",
+					"city": "安阳"
+				}, {
+					"id": "000009",
+					"pinyin":"ankang",
+					"city": "安康"
+				}
+			]
+		},{
+			"id": "002",
+			"letter": "B",
+			"cityList":[{
+				"id": "00004",
+				"pinyin":"beijing",
+				"city": "北京"
+				},{
+				"id": "00005",
+				"pinyin":"baoding",
+				"city": "保定"
+				},{
+				"id": "00006",
+				"pinyin":"beihai",
+				"city": "北海"
+				},{
+				"id": "00007",
+				"pinyin":"baoji",
+				"city": "宝鸡"
+				},{
+				"id": "00008",
+				"pinyin":"baotou",
+				"city": "包头"
+				},{
+				"id": "00009",
+				"pinyin":"bazhong",
+				"city": "巴中"
+				},{
+				"id": "00010",
+				"pinyin":"binzhou",
+				"city": "滨州"
+				},{
+				"id": "00011",
+				"pinyin":"baise",
+				"city": "百色"
+				},{
+				"id": "00012",
+				"pinyin":"benxi",
+				"city": "本溪"
+				}
+			]
+		},{
+			"id": "003",
+			"letter": "C",
+			"cityList":[{
+				"id": "00004",
+				"pinyin":"zhongqing",
+				"city": "重庆"
+				},{
+				"id": "00005",
+				"pinyin":"chengdu",
+				"city": "成都"
+				},{
+				"id": "00006",
+				"pinyin":"changsha",
+				"city": "长沙"
+				},{
+				"id": "00007",
+				"pinyin":"changchun",
+				"city": "长春"
+				},{
+				"id": "00008",
+				"pinyin":"cangzhou",
+				"city": "沧州"
+				},{
+				"id": "00009",
+				"pinyin":"changde",
+				"city": "常德"
+				},{
+				"id": "00010",
+				"pinyin":"changdu",
+				"city": "昌都"
+				},{
+				"id": "00011",
+				"pinyin":"changzhi",
+				"city": "长治"
+				},{
+				"id": "00012",
+				"pinyin":"changzhou",
+				"city": "常州"
+				},{
+				"id": "00013",
+				"pinyin":"chengde",
+				"city": "承德"
+				},{
+				"id": "00014",
+				"pinyin":"chifen",
+				"city": "赤峰"
+				}
+			]
+		},{
+			"id": "004",
+			"letter": "D",
+			"cityList":[{
+				"id": "00004",
+				"pinyin":"dalian",
+				"city": "大连"
+				},{
+				"id": "00005",
+				"pinyin":"dongwan",
+				"city": "东莞"
+				},{
+				"id": "00006",
+				"pinyin":"dali",
+				"city": "大理"
+				},{
+				"id": "00007",
+				"pinyin":"dandong",
+				"city": "丹东"
+				},{
+				"id": "00008",
+				"pinyin":"datong",
+				"city": "大同"
+				},{
+				"id": "00009",
+				"pinyin":"daxinganling",
+				"city": "大兴安岭"
+				},{
+				"id": "00010",
+				"pinyin":"chongde",
+				"city": "德宏"
+				},{
+				"id": "00011",
+				"pinyin":"deyang",
+				"city": "德阳"
+				},{
+				"id": "00012",
+				"pinyin":"dezhou",
+				"city": "德州"
+				},{
+				"id": "00013",
+				"pinyin":"dongying",
+				"city": "东营"
+				}
+			]
+		},{
+			"id": "005",
+			"letter": "E",
+			"cityList":[{
+				"id": "00004",
+				"pinyin":"eerduosi",
+				"city": "鄂尔多斯"
+				},{
+				"id": "00005",
+				"pinyin":"enshi",
+				"city": "恩施"
+				},{
+				"id": "00006",
+				"pinyin":"ezhou",
+				"city": "鄂州"
+				}
+			]
+		},{
+			"id": "006",
+			"letter": "F",
+			"cityList":[{
+				"id": "00004",
+				"pinyin":"fuzhou",
+				"city": "福州"
+				},{
+				"id": "00005",
+				"pinyin":"fangchenggang",
+				"city": "防城港"
+				},{
+				"id": "00006",
+				"pinyin":"foshan",
+				"city": "佛山"
+				},{
+				"id": "00007",
+				"pinyin":"fushun",
+				"city": "抚顺"
+				},{
+				"id": "00008",
+				"pinyin":"fuzhou",
+				"city": "抚州"
+				},{
+				"id": "00009",
+				"pinyin":"fuxin",
+				"city": "阜新"
+				},{
+				"id": "00010",
+				"pinyin":"fuyang",
+				"city": "阜阳"
+				}
+			]
+		},{
+			"id": "007",
+			"letter": "G",
+			"cityList":[{
+				"id": "00004",
+				"pinyin":"guangzhou",
+				"city": "广州"
+				},{
+				"id": "00005",
+				"pinyin":"guilin",
+				"city": "桂林"
+				},{
+				"id": "00006",
+				"pinyin":"guiyang",
+				"city": "贵阳"
+				},{
+				"id": "00007",
+				"pinyin":"gannan",
+				"city": "甘南"
+				},{
+				"id": "00008",
+				"pinyin":"guangan",
+				"city": "广安"
+				},{
+				"id": "00009",
+				"pinyin":"guangyuan",
+				"city": "广元"
+				},{
+				"id": "00010",
+				"pinyin":"guigang",
+				"city": "贵港"
+				},{
+				"id": "00011",
+				"pinyin":"guoluo",
+				"city": "果洛"
+				},{
+				"id": "00012",
+				"pinyin":"ganzi",
+				"city": "甘孜"
+				},{
+				"id": "00013",
+				"pinyin":"ganzhou",
+				"city": "赣州"
+				}
+			]
+		},{
+			"id": "008",
+			"letter": "H",
+			"cityList":[{
+				"id": "00004",
+				"pinyin":"hangzhou",
+				"city": "杭州"
+				},{
+				"id": "00005",
+				"pinyin":"haerbin",
+				"city": "哈尔滨"
+				},{
+				"id": "00006",
+				"pinyin":"hefei",
+				"city": "合肥"
+				},{
+				"id": "00007",
+				"pinyin":"haikou",
+				"city": "海口"
+				},{
+				"id": "00008",
+				"pinyin":"huhehaote",
+				"city": "呼和浩特"
+				},{
+				"id": "00009",
+				"pinyin":"haibei",
+				"city": "海北"
+				},{
+				"id": "00010",
+				"pinyin":"haidong",
+				"city": "海东"
+				},{
+				"id": "00011",
+				"pinyin":"hainan",
+				"city": "海南"
+				},{
+				"id": "00012",
+				"pinyin":"handan",
+				"city": "邯郸"
+				},{
+				"id": "00013",
+				"pinyin":"heihe",
+				"city": "黑河"
+				},{
+				"id": "00014",
+				"pinyin":"hengshui",
+				"city": "衡水"
+				},{
+				"id": "00015",
+				"pinyin":"hengyang",
+				"city": "衡阳"
+				},{
+				"id": "00016",
+				"pinyin":"huaian",
+				"city": "淮安"
+				},{
+				"id": "00017",
+				"pinyin":"huaibai",
+				"city": "淮北"
+				},{
+				"id": "00018",
+				"pinyin":"huaihua",
+				"city": "怀化"
+				},{
+				"id": "00019",
+				"pinyin":"huanggang",
+				"city": "黄冈"
+				},{
+				"id": "00020",
+				"pinyin":"huangshan",
+				"city": "黄山"
+				},{
+				"id": "00021",
+				"pinyin":"huizhou",
+				"city": "惠州"
+				},{
+				"id": "00022",
+				"pinyin":"heze",
+				"city": "菏泽"
+				},{
+				"id": "00023",
+				"pinyin":"huludao",
+				"city": "葫芦岛"
+				}
+			]
+		},{
+			"id": "009",
+			"letter": "J",
+			"cityList":[{
+				"id": "00004",
+				"pinyin":"jinan",
+				"city": "济南"
+				},{
+				"id": "00005",
+				"pinyin":"jiamusi",
+				"city": "佳木斯"
+				},{
+				"id": "00006",
+				"pinyin":"jian",
+				"city": "吉安"
+				},{
+				"id": "00007",
+				"pinyin":"jiangmen",
+				"city": "江门"
+				},{
+				"id": "00008",
+				"pinyin":"jiaozuo",
+				"city": "焦作"
+				},{
+				"id": "00009",
+				"pinyin":"jiaxin",
+				"city": "嘉兴"
+				},{
+				"id": "00010",
+				"pinyin":"jiaguguan",
+				"city": "嘉峪关"
+				},{
+				"id": "00011",
+				"pinyin":"jilin",
+				"city": "吉林"
+				},{
+				"id": "00012",
+				"pinyin":"jinchang",
+				"city": "金昌"
+				},{
+				"id": "00013",
+				"pinyin":"jizhou",
+				"city": "晋城"
+				},{
+				"id": "00014",
+				"pinyin":"jidezhen",
+				"city": "景德镇"
+				},{
+				"id": "00015",
+				"pinyin":"jinmen",
+				"city": "荆门"
+				},{
+				"id": "00016",
+				"pinyin":"jinzhou",
+				"city": "荆州"
+				},{
+				"id": "00017",
+				"pinyin":"jinhua",
+				"city": "金华"
+				},{
+				"id": "00018",
+				"pinyin":"jining",
+				"city": "济宁"
+				},{
+				"id": "00019",
+				"pinyin":"jinzhou",
+				"city": "晋中"
+				},{
+				"id": "00020",
+				"pinyin":"jinzhou",
+				"city": "锦州"
+				},{
+				"id": "00021",
+				"pinyin":"jiujiang",
+				"city": "九江"
+				},{
+				"id": "00022",
+				"pinyin":"jiuquan",
+				"city": "酒泉"
+				}
+			]
+		},{
+			"id": "010",
+			"letter": "K",
+			"cityList":[{
+				"id": "00004",
+				"pinyin":"kunming",
+				"city": "昆明"
+				},{
+				"id": "00005",
+				"pinyin":"kaifeng",
+				"city": "开封"
+				}
+			]
+		},{
+			"id": "011",
+			"letter": "L",
+			"cityList":[{
+				"id": "00004",
+				"pinyin":"lanzhou",
+				"city": "兰州"
+				},{
+				"id": "00005",
+				"pinyin":"lasa",
+				"city": "拉萨"
+				},{
+				"id": "00006",
+				"pinyin":"laibei",
+				"city": "来宾"
+				},{
+				"id": "00007",
+				"pinyin":"laiwu",
+				"city": "莱芜"
+				},{
+				"id": "00008",
+				"pinyin":"langfang",
+				"city": "廊坊"
+				},{
+				"id": "00009",
+				"pinyin":"leshan",
+				"city": "乐山"
+				},{
+				"id": "00010",
+				"pinyin":"liangshan",
+				"city": "凉山"
+				},{
+				"id": "00011",
+				"pinyin":"lianyungang",
+				"city": "连云港"
+				},{
+				"id": "00012",
+				"pinyin":"liaocheng",
+				"city": "聊城"
+				},{
+				"id": "00013",
+				"pinyin":"liaoyang",
+				"city": "辽阳"
+				},{
+				"id": "00014",
+				"pinyin":"liaoyun",
+				"city": "辽源"
+				},{
+				"id": "00015",
+				"pinyin":"lijiang",
+				"city": "丽江"
+				},{
+				"id": "00016",
+				"pinyin":"lincang",
+				"city": "临沧"
+				},{
+				"id": "00017",
+				"pinyin":"linxia",
+				"city": "临夏"
+				},{
+				"id": "00018",
+				"pinyin":"linyi",
+				"city": "临沂"
+				},{
+				"id": "00019",
+				"pinyin":"linzhi",
+				"city": "林芝"
+				},{
+				"id": "00020",
+				"pinyin":"lishui",
+				"city": "丽水"
+				},{
+				"id": "00021",
+				"pinyin":"liuan",
+				"city": "六安"
+				},{
+				"id": "00022",
+				"pinyin":"luoyang",
+				"city": "洛阳"
+				},{
+				"id": "00023",
+				"pinyin":"luohe",
+				"city": "漯河"
+				},{
+				"id": "00024",
+				"pinyin":"longnan",
+				"city": "陇南"
+				}
+			]
+		},{
+			"id": "012",
+			"letter": "M",
+			"cityList":[{
+				"id": "00004",
+				"pinyin":"maanshan",
+				"city": "马鞍山"
+				},{
+				"id": "00005",
+				"pinyin":"maoming",
+				"city": "茂名"
+				},{
+				"id": "00006",
+				"pinyin":"meishan",
+				"city": "眉山"
+				},{
+				"id": "00007",
+				"pinyin":"meizhou",
+				"city": "梅州"
+				},{
+				"id": "00008",
+				"pinyin":"jinyang",
+				"city": "绵阳"
+				},{
+				"id": "00009",
+				"pinyin":"mudanjiang",
+				"city": "牡丹江"
+				}
+			]
+		},{
+			"id": "012",
+			"letter": "N",
+			"cityList":[{
+				"id": "00004",
+				"pinyin":"nanning",
+				"city": "南京"
+				},{
+				"id": "00005",
+				"pinyin":"nanchang",
+				"city": "南昌"
+				},{
+				"id": "00006",
+				"pinyin":"nanning",
+				"city": "南宁"
+				},{
+				"id": "00007",
+				"pinyin":"ningbo",
+				"city": "宁波"
+				},{
+				"id": "00008",
+				"pinyin":"nanchong",
+				"city": "南充"
+				},{
+				"id": "00009",
+				"pinyin":"nanping",
+				"city": "南平"
+				},{
+				"id": "00010",
+				"pinyin":"nantong",
+				"city": "南通"
+				},{
+				"id": "00011",
+				"pinyin":"nanyang",
+				"city": "南阳"
+				},{
+				"id": "00012",
+				"pinyin":"ningde",
+				"city": "宁德"
+				},{
+				"id": "00013",
+				"pinyin":"nujiang",
+				"city": "怒江"
+				}
+			]
+		},{
+			"id": "013",
+			"letter": "P",
+			"cityList":[{
+				"id": "00004",
+				"pinyin":"panjin",
+				"city": "盘锦"
+				},{
+				"id": "00005",
+				"pinyin":"panzhihua",
+				"city": "攀枝花"
+				},{
+				"id": "00006",
+				"pinyin":"pingdingshan",
+				"city": "平顶山"
+				},{
+				"id": "00007",
+				"pinyin":"pingliang",
+				"city": "平凉"
+				},{
+				"id": "00008",
+				"pinyin":"pingxiang",
+				"city": "萍乡"
+				},{
+				"id": "00009",
+				"pinyin":"putian",
+				"city": "莆田"
+				},{
+				"id": "00010",
+				"pinyin":"puyang",
+				"city": "濮阳"
+				}
+			]
+		},{
+			"id": "014",
+			"letter": "Q",
+			"cityList":[{
+				"id": "00004",
+				"pinyin":"qingdao",
+				"city": "青岛"
+				},{
+				"id": "00005",
+				"pinyin":"qindongnan",
+				"city": "黔东南"
+				},{
+				"id": "00006",
+				"pinyin":"qiqihaer",
+				"city": "齐齐哈尔"
+				},{
+				"id": "00007",
+				"pinyin":"qinzhou",
+				"city": "钦州"
+				},{
+				"id": "00008",
+				"pinyin":"quanhzou",
+				"city": "泉州"
+				},{
+				"id": "00009",
+				"pinyin":"qujing",
+				"city": "曲靖"
+				},{
+				"id": "00010",
+				"pinyin":"qizhou",
+				"city": "衢州"
+				},{
+				"id": "00011",
+				"pinyin":"qinhuangdao",
+				"city": "秦皇岛"
+				},{
+				"id": "00012",
+				"pinyin":"anqing",
+				"city": "庆阳"
+				}
+			]
+		},{
+			"id": "015",
+			"letter": "R",
+			"cityList":[{
+				"id": "00004",
+				"pinyin":"baikaize",
+				"city": "日喀则"
+				},{
+				"id": "00005",
+				"pinyin":"rizhao",
+				"city": "日照"
+				}
+			]
+		},{
+			"id": "016",
+			"letter": "S",
+			"cityList":[{
+				"id": "00004",
+				"pinyin":"shanghai",
+				"city": "上海"
+				},{
+				"id": "00005",
+				"pinyin":"shenzhen",
+				"city": "深圳"
+				},{
+				"id": "00006",
+				"pinyin":"suzhou",
+				"city": "苏州"
+				},{
+				"id": "00007",
+				"pinyin":"qinzhou",
+				"city": "钦州"
+				},{
+				"id": "00008",
+				"pinyin":"shenyang",
+				"city": "沈阳"
+				},{
+				"id": "00009",
+				"pinyin":"shijiazhuang",
+				"city": "石家庄"
+				},{
+				"id": "00010",
+				"pinyin":"sanmenxia",
+				"city": "三门峡"
+				},{
+				"id": "00011",
+				"pinyin":"sanming",
+				"city": "三明"
+				},{
+				"id": "00012",
+				"pinyin":"sanya",
+				"city": "三亚"
+				},{
+				"id": "00013",
+				"pinyin":"shangluo",
+				"city": "商洛"
+				},{
+				"id": "00014",
+				"pinyin":"shuangqiu",
+				"city": "商丘"
+				},{
+				"id": "00015",
+				"pinyin":"shangrao",
+				"city": "上饶"
+				},{
+				"id": "00016",
+				"pinyin":"shantou",
+				"city": "汕头"
+				},{
+				"id": "00017",
+				"pinyin":"shaoguan",
+				"city": "韶关"
+				},{
+				"id": "00018",
+				"pinyin":"shaoxing",
+				"city": "绍兴"
+				},{
+				"id": "00019",
+				"pinyin":"suzhou",
+				"city": "朔州"
+				},{
+				"id": "00020",
+				"pinyin":"suihua",
+				"city": "绥化"
+				},{
+				"id": "00021",
+				"pinyin":"suzhou",
+				"city": "宿州"
+				}
+			]
+		},{
+			"id": "017",
+			"letter": "T",
+			"cityList":[{
+				"id": "00004",
+				"pinyin":"tianjin",
+				"city": "天津"
+				},{
+				"id": "00005",
+				"pinyin":"taiyuan",
+				"city": "太原"
+				},{
+				"id": "00006",
+				"pinyin":"taian",
+				"city": "泰安"
+				},{
+				"id": "00007",
+				"pinyin":"taizhou",
+				"city": "泰州"
+				},{
+				"id": "00008",
+				"pinyin":"taizhou",
+				"city": "台州"
+				},{
+				"id": "00009",
+				"pinyin":"tangshan",
+				"city": "唐山"
+				},{
+				"id": "00010",
+				"pinyin":"tianshui",
+				"city": "天水"
+				},{
+				"id": "00011",
+				"pinyin":"tieling",
+				"city": "铁岭"
+				},{
+				"id": "00012",
+				"pinyin":"tongzhou",
+				"city": "铜川"
+				},{
+				"id": "00013",
+				"pinyin":"tonghua",
+				"city": "通化"
+				},{
+				"id": "00014",
+				"pinyin":"tongliao",
+				"city": "通辽"
+				},{
+				"id": "00015",
+				"pinyin":"tongling",
+				"city": "铜陵"
+				},{
+				"id": "00016",
+				"pinyin":"tongren",
+				"city": "铜仁"
+				},{
+				"id": "00017",
+				"pinyin":"taiwan",
+				"city": "台湾"
+				}
+			]
+		},{
+			"id": "020",
+			"letter": "W",
+			"cityList":[{
+				"id": "00004",
+				"pinyin":"wuahn",
+				"city": "武汉"
+				},{
+				"id": "00005",
+				"pinyin":"wulumuqi",
+				"city": "乌鲁木齐"
+				},{
+				"id": "00006",
+				"pinyin":"wuxi",
+				"city": "无锡"
+				},{
+				"id": "00007",
+				"pinyin":"weihai",
+				"city": "威海"
+				},{
+				"id": "00008",
+				"pinyin":"weifang",
+				"city": "潍坊"
+				},{
+				"id": "00009",
+				"pinyin":"wenshan",
+				"city": "文山"
+				},{
+				"id": "00010",
+				"pinyin":"wenzhou",
+				"city": "温州"
+				},{
+				"id": "00011",
+				"pinyin":"wuhai",
+				"city": "乌海"
+				},{
+				"id": "00012",
+				"pinyin":"wuhu",
+				"city": "芜湖"
+				},{
+				"id": "00013",
+				"pinyin":"wulanchabu",
+				"city": "乌兰察布"
+				},{
+				"id": "00014",
+				"pinyin":"wuwei",
+				"city": "武威"
+				},{
+				"id": "00015",
+				"pinyin":"wwutong",
+				"city": "梧州"
+				}
+			]
+		},{
+			"id": "021",
+			"letter": "X",
+			"cityList":[{
+				"id": "00004",
+				"pinyin":"xiamen",
+				"city": "厦门"
+				},{
+				"id": "00005",
+				"pinyin":"xian",
+				"city": "西安"
+				},{
+				"id": "00006",
+				"pinyin":"xining",
+				"city": "西宁"
+				},{
+				"id": "00007",
+				"pinyin":"taiwan",
+				"pinyin":"xiangfan",
+				"city": "襄樊"
+				},{
+				"id": "00008",
+				"pinyin":"xiangtan",
+				"city": "湘潭"
+				},{
+				"id": "00010",
+				"pinyin":"xainning",
+				"city": "咸宁"
+				},{
+				"id": "00011",
+				"pinyin":"xianyang",
+				"city": "咸阳"
+				},{
+				"id": "00012",
+				"pinyin":"xingtai",
+				"city": "邢台"
+				},{
+				"id": "00013",
+				"pinyin":"xinxiang",
+				"city": "新乡"
+				},{
+				"id": "00014",
+				"pinyin":"xinyang",
+				"city": "信阳"
+				},{
+				"id": "00015",
+				"pinyin":"xinyu",
+				"city": "新余"
+				},{
+				"id": "00017",
+				"pinyin":"xishuangbanna",
+				"city": "西双版纳"
+				},{
+				"id": "00018",
+				"pinyin":"xuzhou",
+				"city": "徐州"
+				},{
+				"id": "00019",
+				"pinyin":"xianggang",
+				"city": "香港"
+				}
+			]
+		},{
+			"id": "022",
+			"letter": "Y",
+			"cityList":[{
+				"id": "00004",
+				"pinyin":"yinchuan",
+				"city": "银川"
+				},{
+				"id": "00005",
+				"pinyin":"yaan",
+				"city": "雅安"
+				},{
+				"id": "00006",
+				"pinyin":"yanan",
+				"city": "延安"
+				},{
+				"id": "00007",
+				"pinyin":"yanbian",
+				"city": "延边"
+				},{
+				"id": "00008",
+				"pinyin":"yancheng",
+				"city": "盐城"
+				},{
+				"id": "00009",
+				"pinyin":"yanjiang",
+				"city": "阳江"
+				},{
+				"id": "00010",
+				"pinyin":"yanquan",
+				"city": "阳泉"
+				},{
+				"id": "00011",
+				"pinyin":"yangzhou",
+				"city": "扬州"
+				},{
+				"id": "00012",
+				"pinyin":"yantai",
+				"city": "烟台"
+				},{
+				"id": "00013",
+				"pinyin":"yibin",
+				"city": "宜宾"
+				},{
+				"id": "00014",
+				"pinyin":"yichuan",
+				"city": "宜昌"
+				},{
+				"id": "00015",
+				"pinyin":"yichun",
+				"city": "宜春"
+				},{
+				"id": "00016",
+				"pinyin":"yingkou",
+				"city": "营口"
+				},{
+				"id": "00017",
+				"pinyin":"yulin",
+				"city": "玉林"
+				},{
+				"id": "00018",
+				"pinyin":"yongzhou",
+				"city": "永州"
+				},{
+				"id": "00019",
+				"pinyin":"yushu",
+				"city": "玉树"
+				},{
+				"id": "00015",
+				"pinyin":"yunfu",
+				"city": "云浮"
+				}
+			]
+		},{
+			"id": "023",
+			"letter": "Z",
+			"cityList":[{
+				"id": "00004",
+				"pinyin":"zaoqiang",
+				"city": "枣强"
+				},{
+				"id": "00005",
+				"pinyin":"zaozhuang",
+				"city": "枣庄"
+				},{
+				"id": "00006",
+				"pinyin":"zhejiang",
+				"city": "浙江"
+				},{
+				"id": "00007",
+				"pinyin":"zengchengshi",
+				"city": "增城市"
+				},{
+				"id": "00008",
+				"pinyin":"zhailandunshi",
+				"city": "扎兰屯市"
+				},{
+				"id": "00009",
+				"pinyin":"zhangjiagang",
+				"city": "张家港"
+				},{
+				"id": "00010",
+				"pinyin":"zhangjiajie",
+				"city": "张家界"
+				},{
+				"id": "00011",
+				"pinyin":"zhangjiakou",
+				"city": "张家口"
+				},{
+				"id": "00012",
+				"pinyin":"zhangpingshi",
+				"city": "漳平市"
+				},{
+				"id": "00013",
+				"pinyin":"zhenjiang",
+				"city": "镇江"
+				},{
+				"id": "00014",
+				"pinyin":"zhumadian",
+				"city": "驻马店"
+				},{
+				"id": "00015",
+				"pinyin":"zhoukou",
+				"city": "周口"
+				},{
+				"id": "00016",
+				"pinyin":"zhuhai",
+				"city": "珠海"
+				},{
+				"id": "00017",
+				"pinyin":"zibo",
+				"city": "淄博"
+				},{
+				"id": "00018",
+				"pinyin":"zigong",
+				"city": "自贡"
+				},{
+				"id": "00019",
+				"pinyin":"zhongshan",
+				"city": "中山"
+				},{
+				"id": "00015",
+				"pinyin":"zhengzhou",
+				"city": "郑州"
+				}
+			]
+		}]
+	}
+}
