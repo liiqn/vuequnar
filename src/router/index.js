@@ -6,16 +6,13 @@ import City from '@/pages/city'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'Index',
-      component: Index
-    },
-    {
-      path: '/city',
-      name: 'City',
-      component: City
-    }
-  ]
+  routes: [{
+    path: '/',
+    name: 'Index',
+    component: Index
+  }, {
+    path: '/city',
+    name: 'City',
+    component: City
+  }]
 })

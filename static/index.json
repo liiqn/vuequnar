@@ -1,0 +1,120 @@
+{
+    "ret": true,
+    "data": {
+        "city": "北京",
+        "slider": [{
+            "id": "0001",
+            "link": "",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1712/91/a275569091681d02.jpg_640x200_0519ccb9.jpg"
+        },{
+            "id": "0002",
+            "link": "",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1711/5a/cb4a0ccffeb99b02.jpg_640x200_1b0b75b1.jpg"
+        },{
+            "id": "0003",
+            "link": "",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1801/50/2042433547c75d02.jpg_640x200_bba2a0bc.jpg"
+        },{
+            "id": "0004",
+            "link": "",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1707/90/2ab6fd356529aa02.jpg_640x200_5a7251a0.jpg"
+        },{
+            "id": "0005",
+            "link": "",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1801/36/3a9377867a25d302.jpg_640x200_094f883a.jpg"
+        },{
+            "id": "0006",
+            "link": "",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1712/14/64372bd7d720e502.jpg_640x200_bc71fce9.jpg"
+        }],
+        "icons": [{
+            "id": "0001",
+            "link": "",
+            "title": "景点门票",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png"
+        },{
+            "id": "0002",
+            "link": "",
+            "title": "故宫",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/45/676b67d7078abc02.png"
+        },{
+            "id": "0003",
+            "link": "",
+            "title": "滑雪季",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1711/df/86cbcfc533330d02.png"
+        },{
+            "id": "0004",
+            "link": "",
+            "title": "泡温泉",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1710/a6/83f636bd75ae6302.png"
+        },{
+            "id": "0005",
+            "link": "",
+            "title": "一日游",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/a9/ffc620dbda9b9c02.png"
+        },{
+            "id": "0006",
+            "link": "",
+            "title": "动植物园",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/35/2640cab202c41b02.png"
+        },{
+            "id": "0007",
+            "link": "",
+            "title": "游乐场",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/d0/e09575e66f4aa402.png"
+        },{
+            "id": "0008",
+            "link": "",
+            "title": "必游榜单",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/59/569d3c096e542502.png"
+        },{
+            "id": "0009",
+            "link": "",
+            "title": "演出",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/d0/e09575e66f4aa402.png"
+        }],
+        "sights": [{
+            "id": "0001",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg",
+            "title": "故宫",
+            "desc" :"东方宫殿建筑代表，世界宫殿建筑典范",
+            "price": "20"
+        },{
+            "id": "0002",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1511/d2/d2aec2dfc5aa771290.water.jpg_140x140_abb362a7.jpg",
+            "title": "南山滑雪场",
+            "desc": "北京专业级滑雪圣地",
+            "price": "49"
+        },{
+            "id": "0003",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1604/1e/1e75f8e1af9fe81f90.img.jpg_140x140_b555f882.jpg",
+            "title": "世界花卉大观园",
+            "desc": "揽天下奇花异草，聚世界经典园林",
+            "price": "33.1"
+        },{
+            "id": "0004",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1505/d2/d274c92de14c93da.water.jpg_140x140_e20be8e0.jpg",
+            "title": "颐和园",
+            "desc": "保存完整的一座皇家行宫御苑",
+            "price": "25"
+        },{
+            "id": "0005",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1708/2b/2b6378fd3b2e1d86a3.img.jpg_140x140_eae81520.jpg",
+            "title": "慕田峪长城",
+            "desc": "秀美长城，关键是人少",
+            "price": "19.9"
+        },{
+            "id": "0006",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1708/2b/2b3b94de99c0a425a3.img.jpg_110x110_684eb80e.jpg",
+            "title": "八达岭长城(5A)",
+            "desc": "八达岭长城史称天下九塞之一，是万里长城的精华，在明长城中，独具代表性",
+            "price": "25"
+        },{
+            "id": "0007",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1505/f5/f5f45e1a83537bcb.water.jpg_110x110_4c72dbfd.jpg",
+            "title": "圆明园(4A)",
+            "desc": "经过血与火的洗礼，圆明园犹如中国近代史的一部史册，具有撼人心魄的价值",
+            "price": "25"
+        }]
+    }
+}

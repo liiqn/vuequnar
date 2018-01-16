@@ -19,7 +19,7 @@
   import IndexLetter from './letter'
   import axios from 'axios'
   export default {
-    name: 'index',
+    name: 'city',
     components: {
       IndexHeader,
       IndexSearch,
