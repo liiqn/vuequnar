@@ -26,6 +26,11 @@
     computed: {
       ...mapState(['city'])
     },
+    watch: {
+      city () {
+        this.getIndexData()
+      }
+    },
     components: {
       IndexHeader,
       Slider,
@@ -42,7 +47,6 @@
       handleDataSucc (res) {
         res = res ? res.data : null
         if (res && res.ret && res.data) {
-          res.data.city && (this.changeCity(res.data.city))
           res.data.slider && (this.sliders = res.data.slider)
           res.data.icons && (this.icons = res.data.icons)
           res.data.sights && (this.sights = res.data.sights)

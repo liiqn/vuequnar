@@ -1,68 +1,70 @@
 <template>
-  <div>
-    <index-header></index-header>
-    <index-search :city="wholecity" 
-      @cacher="handleCacher" 
-      @affichage="handleAffichage">
-    </index-search>
-    <index-hot-city :list="hotcity" :class="{show: cityshow}"></index-hot-city>
-    <index-whole-city :list="wholecity" :class="{show: cityshow}"></index-whole-city>
-    <index-letter :letter="wholecity" :class="{show: cityshow}"></index-letter>
+  <div class="main">
+    <city-header></city-header>
+    <search :list="list"></search>
+    <list class="list" :list="list" :hotcity="hotcity" ref="list"></list>
+    <sidebar :list="list" @changeLetter="handleLetterChange"></sidebar>
   </div>
 </template>
 
 <script>
-  import IndexHeader from './header'
-  import IndexSearch from './search'
-  import IndexHotCity from './hotcity'
-  import IndexWholeCity from './wholecity'
-  import IndexLetter from './letter'
   import axios from 'axios'
+  import CityHeader from './header'
+  import Search from './search'
+  import List from './list'
+  import Sidebar from './sidebar'
   export default {
-    name: 'city',
-    components: {
-      IndexHeader,
-      IndexSearch,
-      IndexHotCity,
-      IndexWholeCity,
-      IndexLetter
-    },
+    name: 'index',
     data () {
       return {
-        cityshow: false,
-        hotcity: [],
-        wholecity: []
+        list: [],
+        hotcity: []
       }
     },
-    methods: {
-      getIndexData () {
-        axios.get('/api/city.json')
-          .then(this.handleGetDataSucc.bind(this))
-          .catch(this.handleGetDataErr.bind(this))
-      },
-      handleGetDataSucc (res) {
-        const data = res.data
-        this.hotcity = data.data.hotCity
-        this.wholecity = data.data.wholeCity
-      },
-      handleGetDataErr () {
-        console.log('error')
-      },
-      handleCacher () {
-        this.cityshow = true
-      },
-      handleAffichage () {
-        this.cityshow = false
-      }
+    components: {
+      CityHeader,
+      Search,
+      List,
+      Sidebar
     },
     created () {
-      this.getIndexData()
+      this.getListInfo()
+    },
+    methods: {
+      getListInfo () {
+        axios.get('/api/city.json')
+          .then(this.handleGetListSucc.bind(this))
+          .catch(this.handleGetListErr.bind(this))
+      },
+      handleGetListSucc (res) {
+        res && (res = res.data)
+        if (res && res.data) {
+          res.data.list && (this.list = res.data.list)
+          res.data.hotCity && (this.hotcity = res.data.hotCity)
+        } else {
+          this.handleGetListErr()
+        }
+      },
+      handleGetListErr () {
+        console.log('请求发送失败')
+      },
+      handleLetterChange (item) {
+        this.$refs.list.scrollToIndex(item)
+      }
     }
   }
 </script>
 
 <style lang="stylus" scoped>
-  @import "../../assets/stylus/varibles.styl"
-  .show
-    display: none
+  .main
+    display: flex
+    flex-direction: column
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    .list
+      overflow: hidden
+      flex: 1
 </style>

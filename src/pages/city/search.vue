@@ -1,103 +1,102 @@
 <template>
-	<div class="box">
-		<div class="search">
-	  	<input type="text" class="search-text" 
-	  	  :placeholder="hint" 
-		  	v-model="inputValue" 
-		  	:class="{input: indent}"
-		  	@focus="handleInputFocus" 
-		  	@blur="handleInputBlur">
-	  </div>
-	  <ul class="list-city" v-if="searchFlag">
-		  <li class="city" v-for="(item,index) in getSearchData" :key="index">{{item.city}}</li>
-		</ul>
-	</div>
+  <div class="search">
+    <input class="search-input" type="text" 
+      placeholder="请输入城市名活拼音" 
+      @input="handleInputChange">
+    <div class="search-list" v-show="showList" ref="list">
+      <ul>
+        <li class="search-item border-bottom" v-for="item in filterResult">{{item.name}}</li>
+      </ul>
+    </div>
+  </div>
 </template>
 
 <script>
-export default {
-  name: 'index-search',
-  props: {
-    city: Array
-  },
-  data () {
-    return {
-      hint: '输入城市名或拼音',
-      inputValue: '',
-      indent: false,
-      searchFlag: false,
-      list: [],
-      listcity: []
-    }
-  },
-  watch: {
-    inputValue () {
-      if (this.inputValue) {
-        this.searchFlag = true
-        this.$emit('cacher')
-      } else {
-        this.searchFlag = false
-        this.$emit('affichage')
-      }
-    }
-  },
-  computed: {
-    getSearchData () {
-      const SearchData = []
-      this.city.forEach((value, index) => {
-        value.cityList.forEach((value, index) => {
-          let reg = new RegExp(this.inputValue, 'g')
-          if (reg.test(value.pinyin)) {
-            SearchData.push(value)
-          }
-        })
-      })
-      return SearchData
-    }
-  },
-  methods: {
-    handleInputFocus () {
-      this.hint = ''
-      if (!this.indent) {
-        this.indent = !this.indent
+  import BScroll from 'better-scroll'
+  export default {
+    name: 'city-search',
+    props: {
+      list: Array
+    },
+    data () {
+      return {
+        showList: false,
+        filterResult: []
       }
     },
-    handleInputBlur () {
-      if (!this.hint) {
-        this.hint = '输入城市或拼音'
+    computed: {
+      result () {
+        const result = []
+        this.list.forEach((value, index) => {
+          value.cityList.forEach((value) => {
+            result.push({
+              spell: value.pinyin,
+              name: value.city
+            })
+          })
+        })
+        return result
       }
-      this.indent = !this.indent
+    },
+    watch: {
+      filterResult () {
+        this.$nextTick(() => {
+          this.scroll.refresh()
+        })
+      }
+    },
+    methods: {
+      handleInputChange (e) {
+        const value = e.target.value.toLowerCase()
+        if (value) {
+          this.showList = true
+          this.filterResult = this.result.filter((item) => {
+            if (item.spell.indexOf(value) > -1 || item.name.indexOf(value) > -1) {
+              return true
+            }
+          })
+        } else {
+          this.showList = false
+        }
+      }
+    },
+    mounted () {
+      this.scroll = new BScroll(this.$refs.list)
     }
   }
-}
 </script>
 
 <style lang="stylus" scoped>
-	@import "../../assets/stylus/varibles.styl"
-	.box
-		margin-top: .88rem	
-		.search
-			height: .7rem
-			padding: .1rem .2rem
-			background: $bgColor
-			.search-text
-				width: 99%
-				height: 0.6rem
-				outline: none
-				border: none
-				text-align: center
-				padding-left: 1%
-				border-radius: .1rem
-			.input
-				text-align: left
-		.list-city
-			width: 100%
-			background: white
-			.city
-				height: .7rem
-				line-height: .7rem
-				text-indent: .3rem
-				color: #1a1a1a
-				border-bottom: .01rem solid #e0e0e0
-			
+  @import "../../assets/stylus/varibles.styl"
+  .search
+    height: .74rem
+    background: $bgColor
+    padding: 0 0.4rem
+    box-sizing: border-box
+    .search-input
+      line-height: .62rem
+      width: 100%
+      margin-top: .06rem
+      padding: 0 .2rem
+      border: none
+      border-radius: .1rem
+      text-align: center
+      font-size: .24rem
+      color: #666
+      box-sizing: border-box
+    .search-list
+      z-index: 1
+      overflow: hidden
+      position: absolute
+      top: 1.62rem
+      left: 0
+      right: 0
+      bottom: 0
+      background: #f5f5f5
+      .search-item
+        padding-left: .3rem
+        line-height: .6rem
+        background: #fff
+        color: #333
 </style>
+  

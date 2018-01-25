@@ -51,7 +51,7 @@
 			"city": "重庆"
 			}		
 		],
-		"wholeCity": [{
+		"list": [{
 			"id": "001",
 			"letter": "A",
 			"cityList":[{
